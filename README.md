@@ -6,12 +6,12 @@ int main()
    printf("Enter a value:\n");
    scanf("%d",&a);
    printf("Enter b value:\n");
-   scnaf("%d",&b);
+   scanf("%d",&b);
    if(a>b)
    {
      printf("A is greater");
    }
-   elif(a==b)
+   else if(a==b)
    {
      printf("Both are equal ");
    }
